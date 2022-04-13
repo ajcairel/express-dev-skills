@@ -8,7 +8,16 @@
   <title>Document</title>
 </head>
 <body>
+
+
   <h1>Skill id #<%= skill.id%></h1>
+  <form action="/skills/<%= skill.id %>?_method=DELETE"
+    class="delete-form"
+    method="POST"
+  >
+    <button type="submit">X</button>
+    <p>DELETE SKILL</p>
+  </form>
   <h3><%= skill.skill %></h3>
   <h3>Comfortable with it: <%= skill.comfy ? 'Yes' : 'No' %></h3>
   <a href="/">HOME</a>
