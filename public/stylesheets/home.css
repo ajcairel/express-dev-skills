@@ -1,0 +1,21 @@
+
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-image: url('http://68.media.tumblr.com/662c32661775bd8d723cb314bf5c531f/tumblr_ofkvkc7Mf81qkz08qo1_540.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+  }
+
+  h1 {
+    color:  black;
+    
+   
+    
+  }
+  
+  a {
+    color: yellow;
+  }
+  
