@@ -15,8 +15,9 @@
     class="delete-form"
     method="POST"
   >
-    <button type="submit">DELETE SKILL</button>
-  </form>
+  <button type="submit">DELETE SKILL</button>
+</form>
+<a href="/skills/<%= skill.id %>/edit">Edit Skill</a>
   <h3><%= skill.skill %></h3>
   <h3>Comfortable with it: <%= skill.comfy ? 'Yes' : 'No' %></h3>
   <a href="/">HOME</a>

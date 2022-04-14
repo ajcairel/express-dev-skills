@@ -15,10 +15,14 @@ router.get('/', skillsCtrl.index);
 router.get('/new', skillsCtrl.new);
 // GET /skills/:id (show functionality)
 router.get('/:id', skillsCtrl.show);
+// GET /skills/:id/edit (edit functionality)
+router.get('/:id/edit', skillsCtrl.edit);
 // POST /skills
 router.post('/', skillsCtrl.create);
 // DELETE /skills/:id
 router.delete('/:id', skillsCtrl.delete);
+// PUT /skills/:id
+router.put('/:id', skillsCtrl.update);
 
 
 
